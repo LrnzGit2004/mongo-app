@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mongo Task</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo_icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo_icon.png" width="50" height="50" alt="" />
+        <h1>MongoTask</h1>
+      </div>
+
+      <div id="error-message" class="error hidden"></div>
+
+      <div class="form-container">
+        <input type="hidden" id="edit-todo-id" />
+        <input
+          type="text"
+          id="todo-title"
+          placeholder="Titre de la tâche"
+          required
+        />
+        <div class="form-row">
+          <div class="add-todo">
+            <img src="images/add_icon.png" width="25" height="25" alt="" />
+            <button id="add-todo-btn">Ajouter une tâche</button>
+          </div>
+          <button id="update-todo-btn" class="hidden">Mettre à jour</button>
+          <button id="cancel-edit-btn" class="hidden">Annuler</button>
+        </div>
+      </div>
+
+      <div id="loading" class="loading">Chargement des tâches...</div>
+
+      <div id="todo-list" class="todo-list hidden"></div>
+    </div>
+
+    <footer>
+      <p style="text-align: center; color: #333; margin-top: 25px; opacity: 70%;">
+        MongoTask - 2025
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
