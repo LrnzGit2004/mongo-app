@@ -1,4 +1,4 @@
-# NoSQListe
+# NoSQL
 
 Application todo list développée avec MongoDB, Express.js et JavaScript dans le cadre d'un projet scolaire sur les bases de données non structurées.
 
