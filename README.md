@@ -1,11 +1,10 @@
 # NoSQL
 
-Application todo list développée avec MongoDB, Express.js et JavaScript dans le cadre d'un projet scolaire sur les bases de données non structurées.
+Application todo list développée avec MongoDB, et JavaScript dans le cadre d'un projet scolaire sur les bases de données non structurées.
 
 ## Technologies utilisées
 
 - MongoDB (Base de données NoSQL)
-- Express.js (Framework backend)
 - HTML/CSS/JavaScript (Frontend)
 - Node.js (Environnement d'exécution)
 - MongoDB Compass (Outil de visualisation de données)
